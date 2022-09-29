@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: purple;
+    background-color: rgb(156, 101, 156);
 }
 
 li {
@@ -19,7 +19,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: lavenderblush;
+    background-color: rgb(221, 186, 122);
 }
 
 .active {
