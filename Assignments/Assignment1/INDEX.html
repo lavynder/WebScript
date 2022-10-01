@@ -10,6 +10,7 @@
     
     <meta name="viewport" content="width=device-width">
     
+    <!-- .css FILES -->
     <!-- THE DEFAULT stylesheet USED IF THE WINDOW IS NORMAL SIZED -->
     <link href="STYLE.css" rel="stylesheet" type="text/css" 
         media="only screen and (min-width:960px">
@@ -23,17 +24,54 @@
     <link href="STYLE_PHONE.css" rel="stylesheet" type="text/css"
         media="only screen and (max-width:600px)">
 
+    <!-- .js FILES -->
+    <script type="text/javascript" src="BUTTONS.js"> </script>
+
 </head>
 
+<!-- TAB LINKS -->
+<div class ="tab"> 
+<button class="tablinks" onclick="tabButton(event, 'A')"> test A </button>
+<button class="tablinks" onclick="tabButton(event, 'B')"> test B </button>
+<button class="tablinks" onclick="tabButton(event, 'C')"> test C </button>
+</div>
+
+<!-- TAB CONTENT -->
+<div id="A" class="tabcontent">
+    <h3> 
+        testing tab A
+    </h3>
+    <p>
+        it works!
+    </p>
+</div>
+
+<div id="B" class="tabcontent">
+    <h3> 
+        testing tab B
+    </h3>
+    <p>
+        it works!
+    </p>
+</div>
+
+<div id="C" class="tabcontent">
+    <h3> 
+        testing tab C
+    </h3>
+    <p>
+        it works!
+    </p>
+</div>
 
 
-<!-- NAVIGATION BAR FOR FULL SCREEN -->
-<ul>
+<!-- NAVIGATION BAR -->
+<!-- <ul>
     <li> <a class="active" href="#home"> Home </a> </li>
     <li> <a href="#About Me"> About Me </a> </li>
     <li> <a href="#Projects"> Projects </a> </li>
     <li> <a href="#Contact Me"> Contact Me </a> </li>
-</ul>
+</ul> -->
 
 <body>
     <h1>
