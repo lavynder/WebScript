@@ -21,6 +21,8 @@ dl.list {
 dl.list dt, dd{
     margin-right: 5%;
 
+}
+
 /* STYLESHEET FOR STANDARD WINDOWS */
 @media only screen and (min-width: 960px) {
 
