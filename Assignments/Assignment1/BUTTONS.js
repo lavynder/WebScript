@@ -12,4 +12,4 @@ function tabButton(event, name) {
     document.getElementById(name).style.display = "block";
     event.currentTarget.name += "active";
 } 
-// REFERENCED TO W3 SCHOOLS
+// REFERENCED FROM W3 SCHOOLS
