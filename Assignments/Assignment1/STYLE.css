@@ -8,7 +8,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(156, 101, 156);
+    background-image: linear-gradient(rgb(156, 101, 156),rgb(228, 180, 96)) ;
     font-family: Verdana, Geneva, Arial, sans-serif;
     position: fixed;
     left: 0;

@@ -4,6 +4,8 @@
 
 <head>
     <meta charset="UTF-8">
+    
+    <!-- TITLE -->
     <title>
         Portfolio - Leo Fanseda
     </title>
@@ -31,14 +33,16 @@
 </ul>
 
 <body>
-
     <div id="wrapper">
+        
+        <!-- HEADER FOR THE PAGE-->
         <div id="banner">
             <h1>
                 Introduction
             </h1>
         </div>
 
+        <!-- LEFTMOST COLUMN. INCLUDES THE ABOUT ME AND A SMALL CLIP -->
         <div id="left-column">
             <p>
                 I'm a second year Networking and IT Security student.
@@ -48,19 +52,28 @@
                 I can code in all programming languages, though I have the most experience in Java and Python.<br>
                 <br>
                 In my free time, I enjoy playing music. I play bass guitar, piano, and flute.
-                I enjoy jamming with other musicians, and also performing.
+                I enjoy jamming with other musicians, and also performing. <br>
+                <br>
+                Below is a video of me skating with friends :)
             </p>
 
-            <iframe 
-            width="1280px" height="720px" src="https://www.youtube.com/embed/CDAlnQYE7sA?autoplay=1&mute=1" title="1 minute video" >
-            </iframe>
+            <!-- THE VIDEO AUTOPLAYS ON MUTE. THE VIDEO IS MUTED SO THAT THE USER IS NOT SURPRISED BY SUDDEN AUDIO -->
+            <video controls autoplay muted>
+                <source src="skating_clip.mp4" type="video/mp4">
+            </video>
+
         </div>
         
+        <!-- ID FOR THE ELEMENTS BELONGING TO THE RIGHT MOST COLUMN -->
         <div id="right-column">
-                <img src="sleepy.JPG" alt="Sleepy">
+            <!-- IF THE IMAGE FAILS TO LOAD, THEN Sleepy IS DISPLAYED -->    
+            <img src="sleepy.JPG" alt="Sleepy">
         </div>
 
+        <!-- CREATING A CLASS FOR THE FOOTER -->
         <div class="footer">
+            <!-- &copy INDICATES THE COPYRIGHT SYMBOL.
+            THE <a><a/> SECTION ALLOWS VISITORS TO EMAIL ME BY CLICKING THE LINK. REFERENCED FROM W3 SCHOOLS -->
             <p>
                 &copy 2022 by Leo Fanseda <br>
                 <a href="mailto:leo.fanseda@ontariotechu.net">E-mail: Leo.Fanseda@ontariotechu.net </a>

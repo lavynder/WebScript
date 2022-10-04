@@ -1,5 +1,6 @@
 /* STYLE ELEMENTS THAT ARE SET, REGARDLESS OF WINDOW SIZE */
 
+/* CREATING THE AREA OF THE WRAPPER. WIDTH IS IN PERCENTAGE FOR A RESPONSIVE WEBSITE */
 #wrapper {
     width: 100%;
     height: 800px;
@@ -8,6 +9,7 @@
 
 }
 
+/* ALIGNING THE TITLE TO THE CENTER */
 #banner {
     text-align: center;
 }
@@ -23,7 +25,7 @@
         background-color: #7bcacf;
     }
 
-    iframe {
+    video {
         width: 90%;
         max-height: 60%;
         margin-top: auto;
@@ -55,6 +57,43 @@
         align-self: center;
         width: 100%;
         background-color: #7bcacf;
+    }
+
+    video {
+        width: 90%;
+        max-height: 60%;
+        margin-top: auto;
+        margin-left: 5%;
+    }
+
+    p {
+        margin-left: 5%;
+    }
+
+    img {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+        border: 5px solid rgb(221, 186, 122);
+        border-radius: 2%;
+    }
+}
+
+/* STYLESHEET FOR PHONE SIZED SCREENS */
+@media only screen and (max-width: 480px) {
+
+    #left-column {
+        align-self: center;
+        width: 100%;
+        background-color: #7bcacf;
+    }
+
+    video {
+        width: 90%;
+        max-height: 60%;
+        margin-top: auto;
+        margin-left: 5%;
     }
 
     p {
