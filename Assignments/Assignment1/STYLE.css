@@ -1,63 +1,60 @@
 @charset "UTF-8";
 
 body {
-  background-color: #0DADB7;
-  padding: 0px;
-  margin: 0px;
-  font-family: Verdana, Geneva, Arial, sans-serif; 
+    background-image: linear-gradient(#0DADB7, rgb(156, 101, 156));
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
 }
 
-#wrapper {
-
-width: 960px;
-height: 800px;
-}
-
-#wrapper p{
-    margin-left: 40px;
-}
-
-#left-column {
-    float: left;
-    width: 360px;
-}
-
-p {
-    margin-left: auto;
-}
-
-/* THE STYLE FOR THE NAVIGATION BAR. REFERENCED FROM W3 SCHOOLS */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.footer {
     background-color: rgb(156, 101, 156);
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: rgb(221, 186, 122);
+/*  THE NAVIGATION BAR USED FOR STANDARD AND TABLET SIZED WINDOWS 
+    THE HORIZONTAL BUTTONS ARE GOOD FOR TABLET SIZED SCREENS AS WELL,
+    HOWEVER; IT IS TOO CRAMPED FOR PHONE SIZED SCREENS */
+@media only screen and (min-width: 481px) {
+
+    /* THE STYLE FOR THE NAVIGATION BAR. REFERENCED FROM W3 SCHOOLS */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(156, 101, 156);
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: rgb(221, 186, 122);
+    }
+
+    .active {
+        background-color: orange;
+    }
+
+
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
 }
-
-.active {
-    background-color: orange;
-}
-
-
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
