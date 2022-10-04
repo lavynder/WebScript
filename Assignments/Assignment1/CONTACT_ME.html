@@ -6,15 +6,15 @@
     <title>
         Portfolio - Leo Fanseda
     </title>
-    
+
     <meta name="viewport" content="width=device-width">
-    
+
     <!-- .css FILES -->
     <!-- THE GENERAL STYLESHEET FOR THE UNIFORM ELEMENTS FOUND ON ALL PAGES -->
     <link href="STYLE.css" rel="stylesheet" type="text/css">
 
     <!-- THE STYLESHEET FOR THE HOME PAGE -->
-    <link href="STYLE_CONTACTME.css" rel="stylesheet" type="text/css" >    
+    <link href="STYLE_CONTACTME.css" rel="stylesheet" type="text/css">
 
     <!-- .js FILES -->
     <script type="text/javascript" src="BUTTONS.js"> </script>
@@ -30,7 +30,41 @@
 </ul>
 
 <body>
-    pleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeease
+    <div id="wrapper">
+        <div id="banner">
+            <h1>
+                Fill the form to contact me!
+            </h1>
+        </div>
+
+        <form action="mailto: Leo.Fanseda@ontariotechu.net" ?subject="Signup" Form method enctype="text/plain"
+            name="form">
+            <p>
+                <label for="name"> Name </label>
+                <input name="name" type="text" placeholder="Enter your name" size="40" required>
+            </p>
+            <p>
+                <label for="email"> Email </label>
+                <input name="email" type="email" placeholder="Enter your email" size="40" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input name="phone" type="tel" placeholder="Enter your phone number (optional)" size="40">
+            </p>
+            <p>
+                <label for="comments">Any comments or feedback? </label>
+                <textarea name="comments" cols="60" rows="6"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Click here to submit the form" />
+            </p>
+            <p>
+                <input type="reset" value="Click here to reset the form" />
+            </p>
+
+        </form>
+
+    </div>
 </body>
 
 </html>

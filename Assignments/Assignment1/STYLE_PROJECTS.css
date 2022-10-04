@@ -4,8 +4,7 @@
 #wrapper {
     vertical-align: middle;
     width: 100%;
-    height: 800px
-
+    height: 800px;
 }
 
 /* ALIGNING THE TITLE TO THE CENTER */
@@ -23,6 +22,9 @@ dl.list dt, dd{
 
 }
 
+#center-column {
+    background-color: lavenderblush;
+}
 /* STYLESHEET FOR STANDARD WINDOWS */
 @media only screen and (min-width: 960px) {
 
